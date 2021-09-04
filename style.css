@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background: linear-gradient(to right, white,rgb(135, 150, 68), red);
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 760px;   
+}
+p{
+    font-weight: 600;
+    font-size: 30px;
+}
+h1{
+    font-weight: 600;
+    margin-top: 60px;
+}
+h2{
+    font-weight: 900;
+    font-size: 50px;
+}
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#increment-btn{
+    background-color: darkblue;
+}
+#save-btn{
+    background-color: rgb(8, 63, 8);
+}
+#save-el{
+    font-size: 20px;
+}
+#error{
+    padding-bottom: 5px;
+    font-size: 15px;
+    color: rgb(151, 148, 148);
+    background-color: rgb(167, 15, 15);
+    border-radius: 3px;
+}
